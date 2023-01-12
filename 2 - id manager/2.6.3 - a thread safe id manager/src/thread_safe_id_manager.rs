@@ -129,7 +129,7 @@ mod tests {
         let manager = ThreadSafeIdManager::new();
 
         {
-            let _ids = manager.allocate_smart_id();
+            let _id = manager.allocate_smart_id();
 
             assert_eq!(manager.dump(), "[1,255]");
         }
