@@ -1,0 +1,17 @@
+[package]
+name = "threads"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "shared_id_manager"
+path = "src/lib.rs"
+
+
+[dependencies]
+
+#id-manager = { git = "https://github.com/LenHolgate/lens-rust.git/" }
+id-manager = { path = "../../2 - id manager/2.10 - evolution" }
+#id-manager = { path = "../../2 - id manager/2.9.3 - mark as used" }
